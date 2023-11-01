@@ -1,0 +1,66 @@
+#Hero-Section {
+  height: 350px;
+  background-color: lightseagreen;
+}
+
+#works {
+  background-color: lightseagreen;
+}
+
+#contact_zone {
+  background-color: lightseagreen;
+  height: 91vh;     
+}
+
+#footer_id {
+  height: 5vh;
+}
+.div_card {
+  background-color: lightseagreen;
+}
+
+img {
+  width: 150px;
+  border-radius: 5%;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+}
+
+.con {
+  font-size: 25px;
+}
+
+.con :hover {
+  color: black;
+}
+
+.button_container :hover {
+  color: white;
+}
+
+.subtitle {
+  font-size: 12px;
+}
+
+.face {
+  border: solid 1px black;
+  text-align: center;
+}
+
+.image-top {
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+
+button {
+  width: 4rem;
+}
+
+#final_button {
+  width: 6rem;
+}
