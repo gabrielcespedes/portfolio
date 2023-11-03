@@ -8,13 +8,12 @@
 }
 
 #contact_zone {
-  background-color: lightseagreen;
-  height: 91vh;     
+  background-color: lightseagreen;      
 }
 
-#footer_id {
+/* #footer_id {
   height: 5vh;
-}
+} */
 .div_card {
   background-color: lightseagreen;
 }
@@ -73,3 +72,4 @@ h1 {
 h1 a {
   text-decoration: none;
 }
+

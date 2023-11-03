@@ -49,7 +49,7 @@ const Contact = () => {
                             <label className='mb-2'>Mensaje</label>
                             <textarea name='message' className='form-control' placeholder='Escribe aquí tu mensaje' required></textarea>
                         </div>
-                        <div className='my-3 text-end'>
+                        <div className='mt-5 pb-5 text-end hov'>
                             <input type='submit' id='final_button' className='btn btn-lg btn-dark' value="Enviar"></input>
                         </div>
                     </form>
