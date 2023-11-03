@@ -19,7 +19,7 @@ const Contact = () => {
             .then(
                 () => {                    
                     alert('Mensaje enviado!');
-                    window.location.reload(false);
+                    // window.location.reload(false);
                 },
                 () => {
                     alert('Error en el envío del mensaje. Por favor, intente nuevamente.')
