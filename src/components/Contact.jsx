@@ -6,15 +6,18 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        const service = `${import.meta.env.VITE_SERVICE}`;
+        const template = `${import.meta.env.VITE_TEMPLATE}`; 
+        const token = `${import.meta.env.VITE_TOKEN}`;
         emailjs
             .sendForm(
-                'service_q0krb34',
-                'template_aidp5fk',
+                service,
+                template,
                 form.current,
-                '8CN9ILBLahDbld3YA'
+                token 
             )
             .then(
-                () => {
+                () => {                    
                     alert('Mensaje enviado!');
                     window.location.reload(false);
                 },
@@ -28,7 +31,7 @@ const Contact = () => {
         <>
             <section id='contact_zone' className="container-fluid p-4 mt-4 pt-5">
                 <div className='ms-5'>                
-                    <h1>Contáctame</h1>
+                    <h1>Contáctame</h1>                    
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='form-group mb-3'>
                             <label className='mb-2'>Nombre</label>
