@@ -3,7 +3,7 @@ import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Home from './components/home';
+import Home from './components/Home';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Works from './components/Works';
