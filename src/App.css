@@ -64,3 +64,12 @@ button {
 #final_button {
   width: 6rem;
 }
+
+h1 {
+  display: flex;
+  justify-content: space-between;  
+}
+
+h1 a {
+  text-decoration: none;
+}
