@@ -13,7 +13,8 @@
 }
 
 #contact_zone {
-  background-color: lightseagreen;      
+  background-color: lightseagreen;
+  min-height: calc(90vh - (10px));      
 }
 
 #footer_id {
