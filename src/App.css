@@ -1,9 +1,12 @@
 #Hero-Section {
-  /*height: 350px;*/
-  min-height: calc(60vh - (10px));
+  height: 350px;
   background-color: lightseagreen;
-  vertical-align: middle;
 }
+
+#Acerca-de-mi {
+  min-height: calc(60vh - (10px));
+}
+
 
 #works {
   background-color: lightseagreen;
