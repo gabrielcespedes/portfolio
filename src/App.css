@@ -14,7 +14,7 @@
 
 #contact_zone {
   background-color: lightseagreen;
-  min-height: calc(90vh - (10px));      
+  min-height: calc(100vh - (20px));      
 }
 
 #footer_id {
