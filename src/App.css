@@ -1,5 +1,6 @@
 #Hero-Section {
-  height: 350px;
+  /*height: 350px;*/
+  min-height: calc(60vh - (10px));
   background-color: lightseagreen;
 }
 
