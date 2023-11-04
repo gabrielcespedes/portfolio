@@ -7,7 +7,7 @@ import { faDatabase, faFileCsv, faJarWheat } from '@fortawesome/free-solid-svg-i
 const Home = () => {
     return(
         <>
-        <header id='Hero-Section' className='mt-4'>
+        <header id='Hero-Section' className='mt-4 pt-2 mb-2'>
             <div className="container">
                 <div className='ms-auto'>
                     <div className="container-fluid contenedor pt-5">
