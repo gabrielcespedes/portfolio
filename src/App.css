@@ -11,9 +11,16 @@
   background-color: lightseagreen;      
 }
 
-/* #footer_id {
-  height: 5vh;
-} */
+#footer_id {
+  position: relative;
+  bottom: 0;
+  width: 100%;  
+  text-align: center;
+  padding: 4px 0; /* Añade espaciado vertical si es necesario */
+}
+
+
+
 .div_card {
   background-color: lightseagreen;
 }
