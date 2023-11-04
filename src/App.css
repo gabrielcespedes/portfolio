@@ -2,6 +2,7 @@
   /*height: 350px;*/
   min-height: calc(60vh - (10px));
   background-color: lightseagreen;
+  vertical-align: middle;
 }
 
 #works {
