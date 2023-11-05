@@ -26,7 +26,7 @@ const Works = () => {
                                             </a>
                                         </button>
                                         <button type="button" class="btn btn-outline-dark">
-                                            <a href="https://deploy--thunderous-zabaione-5bb42d.netlify.app/" target="_blank" className="text-dark" >
+                                            <a href="https://arteviva.netlify.app/" target="_blank" className="text-dark" >
                                                 <i className="fa-solid fa-link fa-2x"></i>
                                             </a>
                                         </button>
