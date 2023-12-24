@@ -7,12 +7,13 @@ import { faDatabase, faFileCsv, faJarWheat } from '@fortawesome/free-solid-svg-i
 const Home = () => {
     return(
         <>
-        <header id='Hero-Section' className='mt-4 pt-2 mb-5'>
+        <header id='home' className='mt-3 pt-2 pb-3 mb-5 text-light' style={{ backgroundColor: '#964F4C' }}>
             <div className="container">
                 <div className='ms-auto'>
                     <div className="container-fluid contenedor pt-5">
                         <div className='me-2'>
-                            <h2>Hola! Soy Gabriel Céspedes, Magíster en Ciencia Matemática y Programador.</h2>
+                            <h2>Hola! Soy Gabriel Céspedes,</h2>
+                            <h2>Magíster en Ciencia Matemática y Programador.</h2>
                             <hr/>
                             <h3>Desarrollador Full Stack JavaScript / Desarrollador Python / Profesor de Física y Matemática.</h3>
                         </div>             
@@ -21,7 +22,7 @@ const Home = () => {
                 </div>          
             </div>        
         </header>
-        <section id='Acerca-de-mi' className='container contenedor p-4'>
+        <section id='acerca-de-mi' className='container contenedor p-4'>
             <div className='me-5'>
                 <h2>Acerca de mí</h2>
                 <p>Mi mayor pasión es aprender distintos temas de Tecnologías de la Información,    sobretodo del ámbito del Desarrollo Web (Frontend y Backend) y de la Ciencia de   Datos (Machine Learning). Busco continuamente integrar estas tecnologías en la  educación en Física y Matemática.</p>

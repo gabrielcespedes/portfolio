@@ -8,9 +8,9 @@ import clafismat from '../assets/img/clafismat.jpeg';
 const Works = () => {
     return(
         <>
-            <section id='works' className='container-fluid p-4 mt-4 pt-5'>
+            <section id='trabajos' className='container-fluid p-4 mt-4 pt-5' style={{ backgroundColor: '#A78C7B' }}>
                 <div className='ms-5 me-5'>
-                    <h1>Algunos trabajos</h1>
+                    <h1 className='text-light'>Algunos trabajos</h1>
                     <div className="row">
                         <div className="col-12 col-md-6 col-xl-4 py-2  mt-3 div_card">
                             <div className="card border-0">

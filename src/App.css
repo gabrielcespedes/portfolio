@@ -1,21 +1,10 @@
-#Hero-Section {
-  height: 350px;
-  background-color: lightseagreen;
-}
-
-#Acerca-de-mi {
+#acerca-de-mi {
   min-height: calc(45vh - (10px));
 }
 
-
-#works {
-  background-color: lightseagreen;
-}
-
-#contact_zone {
-  background-color: lightseagreen;
+/* #contacto {  
   min-height: calc(95vh - (20px));      
-}
+} */
 
 #footer_id {
   position: relative;
@@ -25,10 +14,12 @@
   padding: 4px 0; /* Añade espaciado vertical si es necesario */
 }
 
-
+#home {
+  background-color: #CA848A;
+}
 
 .div_card {
-  background-color: lightseagreen;
+  background-color: #A78C7B;
 }
 
 img {
@@ -86,3 +77,10 @@ h1 a {
   text-decoration: none;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}

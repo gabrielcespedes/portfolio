@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef } from 'react';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,23 +9,39 @@ import Navbar from './components/Navbar';
 import Works from './components/Works';
 import Contact from './components/Contact';
 
-import {Routes, Route, BrowserRouter} from 'react-router-dom';
+
 
 function App() {
+
+  // variables para usar landing page
+  const homeRef = useRef(null);
+  const worksRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behaviour: 'smooth' });
+  };
+
   
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-          <Routes>        
-            <Route path='/' element = {<Home />} />
-            <Route path='/works' element = {<Works />}/>
-            <Route path='/contact' element = {<Contact/>}/>         
-        </Routes>
-        <Footer />
-      </BrowserRouter>     
+      <Navbar 
+        scrollToHome = { () => scrollToSection(homeRef)}
+        scrollToWorks = { () => scrollToSection(worksRef)}
+        scrollToContact = { () => scrollToSection(contactRef) }        
+      />
+      <div ref={homeRef}>
+        <Home/>
+      </div>
+      <div ref={worksRef}>
+        <Works />
+      </div>
+      <div ref={contactRef}>
+        <Contact />
+      </div>
+      <Footer />                        
     </>
-  )
+  );
 }
 
-export default App
+export default App;
