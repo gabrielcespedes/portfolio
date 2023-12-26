@@ -25,9 +25,8 @@ const Home = () => {
         <section id='acerca-de-mi' className='container contenedor p-4'>
             <div className='me-5'>
                 <h2>Acerca de mí</h2>
-                <p>Mi mayor pasión es aprender distintos temas de Tecnologías de la Información,    sobretodo del ámbito del Desarrollo Web (Frontend y Backend) y de la Ciencia de   Datos (Machine Learning). Busco continuamente integrar estas tecnologías en la  educación en Física y Matemática.</p>
-                <p>Gracias a este profundo interés he desarrollado aplicaciones web para recopilar  ejercicios para mis estudiantes, resumir temas y disponibilizar el material de mis   clases online.</p>
-                <p>Trato de estar al tanto de los cambios en el ámbito tecnológico lo que me  mantiene motivado a continuar aprendiendo. Actualmente trabajo como profesor de  distintas áreas incluyendo la Minería de Datos. </p>
+                <p>Docente con sólida experiencia en física y matemática, mi trayectoria educativa se ha fortalecido con la enseñanza de Minería de Datos e Internet de las Cosas. </p>
+                <p>Mi formación en Ciencia de Datos y Desarrollo Web se respalda con proyectos educativos propios. Mi habilidad para resolver problemas se ha afianzado a lo largo de mi carrera y mi entusiasmo por la programación se combina con un interés en la adopción de nuevas tecnologías.</p>                
             </div>
             <div className='ms-3 contenedor-icons'>
                     <div className="face my-1">
