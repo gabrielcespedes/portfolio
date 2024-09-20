@@ -4,6 +4,7 @@ import ejercicios from '../assets/img/ejercicios.jpeg';
 import sofia2 from '../assets/img/sofia2.jpg';
 import sofia from '../assets/img/sofia.jpg';
 import clafismat from '../assets/img/clafismat.jpeg';
+import arenados from '../assets/img/arenados.jpeg';
 
 const Works = () => {
     return(
@@ -12,6 +13,25 @@ const Works = () => {
                 <div className='ms-5 me-5'>
                     <h1 className='text-light'>Algunos trabajos</h1>
                     <div className="row">
+                    <div className="col-12 col-md-6 col-xl-4 py-2  mt-3">
+                            <div className="card border-0">
+                                <div className="image-top div_card" style={{ backgroundImage: `url(${arenados})`}}></div>
+                                <div className="card-body cuerpo border border-1">
+                                    <h5 className="card-title fw-bold">Sitio web</h5>
+                                    <p className="card-text">
+                                    Construcción de Sitio Web profesional para empresa <strong>Arenados y Granallados Esparza Ltda.</strong>
+                                    Este sitio web está dedicado a ofrecer servicios de arenados y granallados industriales, destacando la tecnología avanzada y el compromiso con la calidad de cada proyecto.
+                                    Se realizó mediante <strong>Wordpress.</strong></p>
+                                    <div className="text-end button_container">                                        
+                                        <button type="button" class="btn btn-outline-dark">
+                                            <a href="https://arenadosesparza.cl/" target="_blank" className="text-dark" >
+                                                <i className="fa-solid fa-link fa-2x"></i>
+                                            </a>
+                                        </button>
+                                    </div>                        
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-12 col-md-6 col-xl-4 py-2  mt-3 div_card">
                             <div className="card border-0">
                                 <div className="image-top div_card" style={{ backgroundImage: `url(${artmarket})`}}></div>
@@ -101,29 +121,7 @@ const Works = () => {
                                     </div>                        
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-12 col-md-6 col-xl-4 py-2  mt-3">
-                            <div className="card border-0">
-                                <div className="image-top div_card" style={{ backgroundImage: `url(${clafismat})`}}></div>
-                                <div className="card-body cuerpo border border-1">
-                                    <h5 className="card-title fw-bold">Grilla Bootstrap</h5>
-                                    <p className="card-text">
-                                    Confección de página web mediante el uso del framework <strong>Bootstrap</strong>. Se realiza un sistema de grillas para emular una página de venta de cursos web. La página web es adaptable a distintos dispositivos (diseño responsivo). Se utilizan los componentes navbar, card y formulario.</p>
-                                    <div className="text-end button_container">
-                                        <button type="button" class="btn btn-outline-dark mx-2">
-                                            <a href="https://github.com/gabrielcespedes/04_d_bootstrap" target="_blank" className="text-dark" >
-                                                <i className="fa-brands fa-github fa-2x"></i>
-                                            </a>
-                                        </button>
-                                        <button type="button" class="btn btn-outline-dark">
-                                            <a href="https://gabrielcespedes.github.io/04_d_bootstrap/#" target="_blank" className="text-dark" >
-                                                <i className="fa-solid fa-link fa-2x"></i>
-                                            </a>
-                                        </button>
-                                    </div>                        
-                                </div>
-                            </div>
-                        </div>
+                        </div>                        
                     </div>                    
                 </div>                                 
             </section>        

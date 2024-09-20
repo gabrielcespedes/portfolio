@@ -31,7 +31,7 @@ const Contact = () => {
         <>
             <section id='contacto' className="container-fluid ps-2 pe-5 mt-4 pt-5">
                 <div className='ms-5'>                
-                <h1 className='mt-1 mb-4'>Contáctame <a className='text-dark' href="/cv.pdf" download>CV <i class="fa fa-download"></i></a></h1>                   
+                <h1 className='mt-1 mb-4'>Contáctame <a className='text-dark' href="/CV.pdf" download>CV <i class="fa fa-download"></i></a></h1>                   
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='form-group mb-3'>
                             <label className='mb-2'>Nombre</label>

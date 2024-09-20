@@ -1,7 +1,19 @@
 @media screen and (min-width: 990px) {
     .contenedor-icons {            
         display: grid; 
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 10px;
+    }
+    .con {
+        font-size: 35px;
+        width: 45px;
+    }   
+}
+
+@media screen and (min-width: 800px) and (max-width: 990px) {
+    .contenedor-icons {            
+        display: grid; 
+        grid-template-columns: auto auto auto auto;
         gap: 10px;
     }
     .con {
@@ -11,11 +23,159 @@
 }
 
 @media screen and (max-width: 800px) {
+    .contenedor-icons {            
+        display: grid; 
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
     h2 {
         font-size: 22px;
     }
     h3 {
         font-size: 16px;
-    }    
+    }
+    #acerca-de-mi p {
+        font-size: 16px;
+    } 
+    #tensor_flow_icon:hover::after {
+        content: "Tensor Flow";
+        position: absolute;
+        transform: translate(-50%,-15%);  
+        font-size: 13px;
+        color: black;
+    }
+    #scikit-lean_icon:hover::after {
+        content: "SkLearn";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #numpy_icon:hover::after {
+        content: "Numpy";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #pandas_icon:hover::after {
+        content: "Pandas";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #python_icon:hover::after {
+        content: "Python";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #tableau_icon:hover::after {
+        content: "Tableau";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #django_icon:hover::after {
+        content: "Django";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #flask_icon:hover::after {
+        content: "Flask";
+        position: absolute;
+        transform: translate(-90%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #node_js_icon:hover::after {
+        content: "NodeJS";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #react_js:hover::after {
+        content: "ReactJS";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #javascript:hover::after {
+        content: "JavaScript";
+        position: absolute;
+        transform: translate(-70%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #laravel:hover::after {
+        content: "Laravel";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #php:hover::after {
+        content: "PHP";
+        position: absolute;
+        transform: translate(-110%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #wordpress:hover::after {
+        content: "Wordpress";
+        position: absolute;
+        transform: translate(-70%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #boostrap_icon:hover::after {
+        content: "Bootstrap";
+        position: absolute;
+        transform: translate(-70%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #css_icon:hover::after {
+        content: "CSS";
+        position: absolute;
+        transform: translate(-110%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #html_icon:hover::after {
+        content: "HTML";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #sql_icon:hover::after {
+        content: "SQL";
+        position: absolute;
+        transform: translate(-90%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #git_icon:hover::after {
+        content: "Git";
+        position: absolute;
+        transform: translate(-110%,180%);  
+        font-size: 13px;
+        color: black;
+    }
+    #github_icon:hover::after {
+        content: "GitHub";
+        position: absolute;
+        transform: translate(-80%,180%);  
+        font-size: 13px;
+        color: black;
+    }
 }
 
